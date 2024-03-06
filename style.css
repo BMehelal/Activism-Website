@@ -1,0 +1,387 @@
+ html {
+  height: 100%;
+  width: 100%;
+  padding: 1rem;
+  background-color: #DDC3A5;
+  color:  #201E20;  
+}
+
+h1{
+  font-size: 3em;
+  display:flex;
+  justify-content: flex-start;
+}
+
+li, a, button{
+  font-weight: 500;
+  font-size: 16px;
+  text-decoration: none;
+  list-style: none;
+  color:#201E20;
+}
+header{
+  display:flex;
+  justify-content: flex-end;
+  align-items: center;
+  /* padding: 30px 10%; */
+  padding:0;
+  flex-wrap: nowrap;
+}
+.logo{
+  cursor: pointer;
+  margin-right: auto;
+}
+
+.nav_links{
+  list-style: none;
+}
+
+.nav_links li{
+  display: inline-block;
+  padding: 0px 20px;
+}
+.nav_links li a {
+  transition: all 0.3s ease 0s;
+}
+.nav_links li a:hover {
+  background-color: rgba(200, 158, 109,0.8);
+  
+}
+button{
+  padding: 9px 25px;
+  background-color: #E0A96D;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+}
+button:hover{
+  background-color: rgba(200, 158, 109,0.8);
+}
+/* IMPORTANT NAV LINKS */
+/* .nav_links{
+  list-style: none;
+}
+.nav_links li{
+  display: inline-block;
+  padding: 0px 20px;
+} */
+
+ button{
+   padding: 9px 25px;
+   border:none;
+   border-radius: 50px;
+ }
+
+.header-container{
+  display:flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 30px 10%;
+}
+
+
+
+#home {
+  display:flex;
+  justify-content: space-evenly;
+  margin-left: 1rem;
+}
+
+
+.text-wrapper {
+  font-size: 1.2rem;
+  font-weight: bold;
+  width: 45%;
+  margin: 0;
+  border: 7px solid #E0A96D;
+  border-radius: 25% 10%;
+  padding: 10px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+hr {
+  border: none;
+  background-color: #E0A96D;
+  height: 4px;
+
+}
+
+
+/* UNIMPORTANT NAV BAR */
+/* .navbar {
+  display: flex;
+  justify-content: space-between;
+  background-color: #E0A96D; 
+  border: 1px solid #DDC3A5;
+  padding: 10px;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #201E20; 
+  margin: 0 20px; 
+} */
+
+.container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  
+}
+.container figure{
+  margin-left: 5%;
+  color:#201E20;
+}
+
+.text-container2 {
+  text-align: left;
+  padding: 10px;
+  border: 1px solid #E0A96D; /* Optional: Add a border around text */
+  border-radius: 0 0 8px 8px;
+}
+.text-container2 cite{
+  color:#C89E6D;
+}
+.image-container2 {
+    /* text-align: center;  */
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+
+.image-list {
+  display: flex;
+  flex-wrap: nowrap;
+  list-style: none;
+  margin-left: 11%;
+  padding: 0; /* Remove default padding on ul */
+}
+
+/* Style each list item */
+.image-list li {
+  display: flex;
+  flex-direction: column;
+  margin-right: 20px; /* Adjust as needed to add space between items */
+}
+
+.image-container img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px; /* Optional: Add rounded corners to images */
+}
+
+.text-container {
+  text-align: left;
+  padding: 10px;
+  border: 1px solid #E0A96D; /* Optional: Add a border around text */
+  border-radius: 0 0 8px 8px; /* Optional: Add rounded corners to text container */
+}
+
+/* Optional: Style links within text container */
+.text-container a {
+  color: #C89E6D;
+  text-decoration: underline;
+}
+
+/* Optional: Style links on hover */
+.text-container a:hover {
+  color: #C89E6D;
+}
+
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.contact, .menu {
+    display: flex;
+    flex-direction: column;
+ 
+}
+
+.menu li{
+  padding: 5px;
+}
+.menu li a {
+  transition: all 0.3s ease 0s;
+}
+.menu li a:hover {
+  background-color: rgba(200, 158, 109,0.8);
+
+}
+
+
+/* Part 1: Navbar */
+
+/* General style rule set for all items in ul */
+/* .navbar ul {
+    list-style: none;
+    list-style-type: none;
+    overflow: none;
+  position: fixed;
+  top:0;
+  width: 100%;
+  margin-bottom: 20px;
+  
+} */
+/* CURRENT NAR BAR */
+
+/* Style rule set for individual li */
+/* .navbar ul li {
+    float: right;
+    margin: 10px;
+}
+ */
+
+/* Style rule set for individual li link */
+/* .navbar ul li a {
+    font-family: Arial;
+    color:black;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+/* Style rule set for hovered link */
+.navbar ul li a:hover {
+    font-weight: bold;
+} */
+
+
+
+
+/* Part 2: Flexbox */
+
+/* General style rule set for flex container */
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+h2{
+  margin-left: 10%;
+  font-size: 2rem;
+}
+
+/* Style set for all flex-items */
+.flex-item {
+    background: white;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* Customize Dark Mode Theme */
+.dark-mode {
+  background-color: #201E20; /* Dark background */
+  color: #DDC3A5; /* Light text and content color */
+  accent-color: #E0A96D; /* Light accent color */
+}
+.dark-mode p{
+  color: #DDC3A5;
+}
+.dark-mode figcaption cite{
+  color: #DDC3A5;
+}
+/* You can use the 'accent-color' for buttons, links, or other accent elements. */
+.dark-mode button {
+  background-color: #E0A96D;
+  color: #201E20;
+  /* Add other button styles as needed */
+}
+.dark-mode li a{
+  color: #DDC3A5;
+}
+.petition-container{
+  display:flex;
+  flex-direction: row;
+  gap:20px;
+  padding:20px;
+  margin-left: 20%;
+  
+  
+}
+
+.temp{
+  margin-left: 20%;
+}
+.petition-para{
+  width:auto;
+  padding-left: 20px;
+  padding-right:10px;
+  
+}
+
+.petition-para{
+  width:45%;
+  padding-right:10px;
+}
+
+.footer-copyright{
+  display:flex;
+  justify-content: center;
+}
+
+.error {
+  border-style: solid;
+  border-width: 2px;
+  border-color: red;
+  background:pink;
+}
+
+.revealable {
+  position: relative;
+  transform: translateY(150px);
+  opacity: 0;
+  transition: all 2s ease;
+}
+
+.active{
+  transform: translateY(0px);
+  opacity: 1;
+}
+
+/* the modal that covers the background and prevents user interactions */
+.modal {
+  display: none; /* hides the modal from view by default*/
+  position: fixed; /* keeps the modal in one place */
+  z-index: 2; /* positions the modal on top of all other elements on the screen */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  background-color: rgba(0,0,0,0.4); /* 40% opacity black - other elements can still be seen */
+  flex-direction: column; /* these flexbox rules center the content on the screen */
+  align-items: center;
+  justify-content: center;
+}
+
+/* box that contains all the content and images */
+.modal-content {
+  background-color: lightsteelblue; /* update the colors and font sizes as you like */
+  color: black;
+  text-align: center;
+  font-size: 3rem;
+  display: flex; /* adds flexbox to center all items */
+  justify-content: center;
+  align-items: center;
+}
+
+#thanks-modal-content {
+  width: 20rem; /* sets a default width for the text container */
+}
+
+#modal-text-container {
+  display: flex; /* adds flexbox to center the text and buttons (stretch feature) */
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
