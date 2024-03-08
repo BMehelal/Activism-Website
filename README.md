@@ -2,12 +2,12 @@
 
 ## Single page static website that advocates and educates users of resources on the significance of youth development in New York City.
 
-As part of CodePath's WEB 101 course-long project with the theme of social impact for good, I developed a single webpage that highlights the importance and issues in fostering the next generation of leaders in New York City. From learning and implmenting my skills in HTML, CSS, and Javascript, I was able to implement key functionalities that gives my webpage some depth. Some notable key features include:
+As part of CodePath's WEB 101 course-long project with the topic of social impact  for good, I created a single webpage outlining the importance and challenges of developing the next generation of leaders in New York City. Learning and using my HTML, CSS, and Javascript abilities allowed me to incorporate crucial functions that add depth to my webpage. Some significant essential aspects are:
 
-* Toggable Dark-Mode 
-* Form validation
-* User-scroll Animation 
-* Popup-style Animated Modal
+* __Toggable Dark-Mode__
+* __Form validation__
+* __User-scroll Animation__
+* __Popup-style Animated Modal__
 
 Video of webpage:
 
